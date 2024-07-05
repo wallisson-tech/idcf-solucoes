@@ -39,6 +39,12 @@ nav li a:hover{
     background-color: #3d0000;
 }
 
+h2 {
+    margin-top: 0; /* remove o espaçamento superior do título */
+    font-weight: bold; /* torna o título mais grosso */
+    color: orange; /* cor do título */
+}
+
 .dropdown-menu{
     position: absolute;
     box-shadow: #aab1bc;
@@ -119,6 +125,39 @@ nav li a:hover{
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.social-container {
+    background-color: #e0e1dd; /* cor de fundo da seção */
+    padding: 10px; /* espaçamento interno da seção */
+    border: 1px solid #465975; /* borda da seção */
+    border-radius: 10px; /* arredondamento das bordas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* sombra da seção */
+    margin-top: 10px;
+}
+  
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+  
+.social a {
+    margin: 10px;
+    text-decoration: none;
+    color: #950101;
+}
+  
+.social a:hover {
+    color: orange;
+}
+  
+.social img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    border-radius: 50px;
 }
 
 .rodape {
