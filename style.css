@@ -57,27 +57,21 @@ h2 {
     background: #950101;
     background-color: #950101;
 }
+
 .dropdown:hover .dropdown-menu{
     display: block;
 }
 
-.conteudo-principal {
-    color: #eeeeee;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 30px;
+.conteudo-principal-titulo:hover {
+    cursor: pointer;
+    color: chocolate;
 }
 
-.conteudo-principal-escrito {
-    color: #eeeeee;
-    flex-direction: top;
-    align-items: center;
-    gap: 32px;
-    text-align: center;
-}
+.conteudo-principal-titulo:hover{
+    transition: 0.5s;
+  }
 
-.conteudo-principal-escrito-titulo {
+.conteudo-principal-titulo {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 70px;
@@ -159,6 +153,10 @@ h2 {
     height: 30px;
     margin: 0 10px;
     border-radius: 50px;
+}
+
+.title-social{
+    text-align: center;
 }
 
 .rodape {
